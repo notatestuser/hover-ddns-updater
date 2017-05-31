@@ -1,0 +1,33 @@
+{
+  "name": "hover-ddns-updater",
+  "version": "0.1.0",
+  "description": "Creates or updates a DNS A record on your domain with your network's public IP via the Hover API.",
+  "main": "index.js",
+  "bin": {
+    "hover-ddns-updater": "update.js"
+  },
+  "dependencies": {
+    "async": "^2.4.1",
+    "hover-api": "^1.0.0",
+    "moira": "^1.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/notatestuser/hover-ddns-updater.git"
+  },
+  "keywords": [
+    "dns",
+    "ddns",
+    "dynamic-dns",
+    "hover"
+  ],
+  "author": "Luke Plaster <me@lukep.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/notatestuser/hover-ddns-updater/issues"
+  }
+}
